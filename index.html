@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title> Визитка </title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="header_nav">
+            <ul class="rectangle_list">
+                <li class="rectangle_item"><a class="list_link" href="#about_me"> Обо мне </a></li>
+                <li class="rectangle_item"><a class="list_link" href="#example_photo"> Фотоработы </a></li>
+                <li class="rectangle_item"><a class="list_link" href="#contacts"> Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section_home" id="about_me">
+            <div class="home_images">
+                <img class="home_avatar" src="./assets/img/author.jpeg" alt="author">
+            </div>
+            <div class="home_desc">
+                <h1 class="home_title"> Настя Рейтер </h1>
+                <p class="home_text">Привет! Я фотограф и тату-мастер Настя. Занимаюсь фотографией уже 13 лет. Живу в
+                    Санкт-Петербурге, снимаю в обоих столицах - Санкт-Петербурге и Москве. Направление фото разное: </p>
+                <ul class="home_list">
+                    <li class="item"> <a class="home_link" href="https://vk.com/albums-6048848"
+                            target="_blank"> Свадебная
+                            съёмка </a> </li>
+                    <li class="item"> <a class="home_link"
+                            href="https://www.pinterest.ru/reiterphoto/family-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C%D1%81%D0%B5%D0%BC%D1%8C%D1%8F-%D0%B4%D0%B5%D1%82%D0%B8/"
+                            target="_blank"> Семейная
+                            съёмка </a> </li>
+                    <li class="item"> <a class="home_link" href="https://www.pinterest.ru/reiterphoto/vegan-food-porn/"
+                            target="_blank"> Фуд-съёмка
+                            (веган) </a> </li>
+                    <li class="item"> <a class="home_link" href="https://www.instagram.com/p/COzxq0wLgGs/"
+                            target="_blank"> Подводная
+                            съёмка </a>
+                    </li>
+                    <li class="item"> <a class="home_link" href="https://www.pinterest.ru/reiterphoto/content/"
+                            target="_blank"> Контент-съёмка </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_photo" id="example_photo">
+            <h2 class="photo_title"> Мои фотоработы </h2>
+            <div class="photo_button">
+                <button class="photo_btn_prev" onclick="photoImgPrev()" id="btnPrev"> &lsaquo; </button>
+                <div class="photo_img">
+                    <img src="./assets/img/content/content.jpeg" alt="photo" class="img_photo" id="photo">
+                </div>
+                <button class="photo_btn_next" onclick="photoImgNext()" id="btnNext"> &rsaquo; </button>
+            </div>
+        </section>
+        <section class="section_contacts" id="contacts">
+            <h1 class="contacts_title"> Со мной можно связаться в соцсетях и месенджерах: </h1>
+            <div class="contacts_social">
+                <div class="social_telegram">
+                    <a href="https://t.me/ReiterA" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+                </div>
+                <div class="social_vk">
+                    <a href="https://vk.com/reiterphoto" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+                </div>
+                <div class="social_pinterest">
+                    <a href="https://www.pinterest.ru/reiterphoto/_saved/" target="_blank"><i
+                            class="fa fa-pinterest fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_section">
+            <p class="footer_text"> Разработчица сайта <a href="https://t.me/itDevushka" target="_blank"
+                    class="footer_link"> Дина
+                    Гуринова </a></p>
+        </div>
+    </footer>
+
+
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
